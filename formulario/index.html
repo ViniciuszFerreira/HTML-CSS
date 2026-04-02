@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários - Aula de Multimídia</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <h1>Formulário Completo - Exemplo Prático</h1>
+
+    <form id="formContato">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <p>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" placeholder="(19) 99999-9999">
+            </p>
+
+            <p>
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" min="0" max="120">
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+
+            <p>
+                <label>Curso de Interesse:</label><br>
+                <input type="radio" name="curso" value="HTML" required> HTML
+                <input type="radio" name="curso" value="CSS"> CSS
+                <input type="radio" name="curso" value="JavaScript"> JavaScript
+            </p>
+
+            <p>
+                <label>Recursos desejados:</label><br>
+                <input type="checkbox" name="recursos" value="Certificado"> Certificado
+                <input type="checkbox" name="recursos" value="Material PDF"> Material PDF
+                <input type="checkbox" name="recursos" value="Aulas gravadas"> Aulas gravadas
+            </p>
+
+            <p>
+                <label for="nivel">Nível:</label><br>
+                <select id="nivel" required>
+                    <option value="">Selecione...</option>
+                    <option>Iniciante</option>
+                    <option>Intermediário</option>
+                    <option>Avançado</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="cidade">Cidade:</label><br>
+                <input list="cidades" id="cidade">
+                <datalist id="cidades">
+                    <option value="São Paulo">
+                    <option value="Campinas">
+                    <option value="Santos">
+                </datalist>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Avaliação</legend>
+
+            <p>
+                <label for="nota">Nota do curso (0 a 10):</label><br>
+                <input type="range" id="nota" min="0" max="10" value="5">
+                <output id="valorNota">5</output>
+            </p>
+
+            <p>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" rows="4" cols="40"></textarea>
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+
+    </form>
+
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>
+
+
+
+
