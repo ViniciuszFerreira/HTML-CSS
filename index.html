@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulahtml</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="pagina">
+    <nav class=" menu">
+        <a href=" #artigo">Artigo</a> |
+        <a href=" #listas">Lista</a> |
+        <a href=" #midia">Midia</a> |
+        <a href=" #artigo">Tabela</a> |
+    </nav>
+    <hr>
+<article id="artigo" class="conteudo-principal">
+
+    <header>
+        <h1>HTML Semâmtico</h1>
+        <p>Exemplo prático para disciplina de Multimidia</p>
+    </header>
+
+    <p>
+        A utilização de <strong>tags semâticas</strong> melhora a 
+        organização, acessibilidade e entendimento do conteúdo da pagina.
+    </p>
+
+    <aside class="box-aside">
+        <p>
+            Este conteúdo é complementar ao artigo  principal e está dentro
+            da da tag <code>&lt;aside</code>.
+        </p>
+    </aside>
+
+    <address>
+        Autor: Vinicius Eduardo 
+        email:viniefs2012@gmail.com
+    </address>
+
+    <hr>
+    <section id="listas" class="bloco">
+        <h2>Lista em HTML</h2>
+        <h3>Lista não ordenada</h3>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Lista Ordenada</h3>
+        <ol start="3">
+            <li>Introdução</li>
+            <li>Tags</li>
+            <li>Planejamento</li>
+        </ol>
+
+        <h3>Lista Ordenada Reversa</h3>
+        <ol reversed>
+            <li>Projeto</li>
+            <li>Implemtação</li>
+            <li>Planejamento</li>
+        </ol>
+
+        <h3>Lista de definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para criação de páginas Web</dd>
+
+            <dt>CSS</dt>
+            <dd>Responsável pela aparência visual da página</dd>
+        </dl>
+</section>
+
+<hr>
+
+<section id="midia" class="bloco">
+    <h2>Multimídia</h2>
+
+    <h3>Áudio</h3>
+    <audio controls preload="metadata">
+        <source src="audio-exemplo.mp3" type="audio/mpeg">
+        <source src="audio-exemplo.ogg" type="audio/ogg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <h3>Video</h3>
+    <video controls width="320" height="240" poster="poster-video.png">
+
+    <source src="video-exemplo.mp4" type="video/mp4">
+    <source src="video-exemplo.webm" type="video/webm">
+    Seu navegador não suporta vídeo.
+
+    </video>
+</section>
+
+<hr>
+
+<section id="tabela" class="bloco">
+    <h2>Tabela de Conteúdos</h2>
+
+    <table class="tabela-conteudo">
+
+        <caption class="tabela-conteudo">Conteúdo da Disciplina</caption>
+
+        <thead>
+            <tr>
+                <th>Tema</th>
+                <th>Aula</th>
+            </tr>
+        </thead>
+
+
+
+    <tbody>
+        <tr>
+            <td>Introdução ao HTML</td>
+            <td>Aula 1</td>
+        </tr>
+        <tr>
+            <td>Tags Semânticas</td>
+            <td>Aula 2</td>
+        </tr>
+        <tr>
+            <td>Multimídia</td>
+            <td>Aula 3</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">Curso de Multimídia</td>
+        </tr>
+    </tfoot>
+
+    </table>
+</section>
+
+<hr>
+
+    <footer class="rodape">
+        <p>
+            ©️ 2026 - Disciplina de Multimídia<br>
+            Aluno: Vinicius Eduardo Ferreira da Silva 
+        </p>
+    </footer>
+
+
+</article>
+    
+</body>
+</html>
