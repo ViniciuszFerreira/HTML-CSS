@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mídia - Áudio e Vídeo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Site da Disciplina de Multimídia</h1>
+        <p>Exemplo prático com páginas separadas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a> |
+        <a href="artigo.html">Artigo</a> |
+        <a href="midia.html">Mídia</a> |
+        <a href="tabela.html">Tabela</a>
+    </nav>
+    <hr>
+
+    <section>
+        <h1>Conteúdo Multimídia</h1>
+
+        <h2>Áudio</h2>
+        <audio controls preload="metadata">
+            <source src="audio-exemplo.mp3" type="audio/mpeg">
+            <source src="audio-exemplo.ogg" type="audio/ogg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <h2>Vídeo</h2>
+        <video controls width="320" height="240" poster="poster-video.png">
+            <source src="video-exemplo.mp4" type="video/mp4">
+            <source src="video-exemplo.webm" type="video/webm">
+            Seu navegador não suporta vídeo.
+        </video>
+    </section>
+
+    <footer>
+        <p>Exemplo de áudio e vídeo em HTML</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mídia - Áudio e Vídeo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" id="tema" href="css/claro.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Site da Disciplina de Multimídia</h1>
+        <p>Exemplo prático com páginas separadas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a> |
+        <a href="artigo.html">Artigo</a> |
+        <a href="midia.html">Mídia</a> |
+        <a href="tabela.html">Tabela</a>
+    </nav>
+
+    <button id="btn-tema" onclick="trocarTema()" class="botao-tema">
+        🌙 Modo Escuro
+    </button>
+
+    <hr>
+
+    <section>
+        <h1>Conteúdo Multimídia</h1>
+
+        <h2>Áudio</h2>
+        <audio controls preload="metadata">
+            <source src="audio-exemplo.mp3" type="audio/mpeg">
+            <source src="audio-exemplo.ogg" type="audio/ogg">
+            Seu navegador não suporta áudio.
+        </audio>
+
+        <h2>Vídeo</h2>
+        <video controls width="320" height="240" poster="poster-video.png">
+            <source src="video-exemplo.mp4" type="video/mp4">
+            <source src="video-exemplo.webm" type="video/webm">
+            Seu navegador não suporta vídeo.
+        </video>
+    </section>
+
+    <footer style="text-align: center;" id="rodape">
+        <p style="text-align: center;">© 2026 - Prof. Rodrigo Martins</p>
+    </footer>
+
+    <script src="js/tema.js"></script>
+
+</body>
+
+</html>
+
