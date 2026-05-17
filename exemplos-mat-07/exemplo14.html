@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 - 17/05/2024</title>
+</head>
+<body>
+
+    <h1>Exemplo 14</h1>
+
+    <p>
+        <label for="nome">Digite seu nome: </label>
+        <input type="text" name="nome" id="nome" onchange="upper()">
+    </p>
+
+    <script>
+        function upper(){
+            var x = document.getElementById('nome');
+            x.value = x.value.toUpperCase();
+        }
+        
+    </script>
+
+
+    
+</body>
+</html>

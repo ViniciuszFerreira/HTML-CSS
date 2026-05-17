@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17/05 - Exemplo 5</title>
+</head>
+<body>
+
+    <p id="intro">Localizando elemento HTML pelo ID</p>
+    <p id="demo"></p>
+
+    <script>
+        var elemento= document.getElementById('intro');
+        document.getElementById('demo').innerHTML = 
+        "O texto do parágrafo de introdução é: "+ elemento.innerHTML;
+    </script>
+    
+</body>
+</html>

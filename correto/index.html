@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de HTML - TAGS</title>
+    <link rel="stylesheet" href="css/estilo3.css">
+</head>
+<body id="pagina">
+    <!-- Menu de navegação-->
+     <nav class="Menu">
+        <a href="#artigo">Artigo</a> |
+        <a href="#listas">Listas</a> |
+        <a href="#midia">Mídia</a> |
+        <a href="#tabela">Tabela</a> |
+     </nav>
+     <hr>
+     <article id="artigo" class="conteudo-pricipal">
+        <header>
+            <h1>HTML Semântico</h1>
+            <p>Exemplo prático para a diciplina de Multimídia</p>
+        </header>
+        <p>
+            A utilização de <strong>tags Semânticas</strong> melhora a organização, acessibilidade e entendimento do conteúdo da página.
+        </p>
+
+        <aside class="box-aside">
+            <p>
+                Eete conteúdo é complementar ao artigo principal e está dentro da tag <code>&lt;</code>.
+            </p>
+        </aside>
+        <address>
+            Autor: Jeferson Henrique Carvalho Canavesi <br>
+            E-mail: jeferson.henriquecc@outlook.com.br
+        </address>
+     </article>
+    
+     <hr>
+
+     <section id="listas" class="bloco">
+        <h2> Listas em HTML</h2>
+
+        <h3> Listas não ordenada</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Lista ordenada</h3>
+        <ol start="3">
+            <li>Introdução</li>
+            <li>Tags</li>
+            <li>Atributos</li>
+        </ol>
+
+        <h3>Litas ordenada reversa</h3>
+        <ol reversed>
+            <li>Projeto</li>
+            <li>Implementação</li>
+            <li>Planejamento</li>
+        </ol>
+
+        <h3>Listas de definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para criação de paginas web</dd>
+
+            <dt>CSS</dt>
+            <dd>Responsavel pela aparência visual da página</dd>
+        </dl>
+     </section>
+
+     <hr>
+
+     <section id="midia" class="bloco">
+        <h2>Multimídia</h2>
+
+        <h3>Áudio</h3>
+        <audio controls preload="metadata">
+            <source src="baixar o audio.mp3" type="audio/mpeg">
+            <source src="audio exemplo.ogg" type="audio/ogg">
+            Seu navegador não suporta audio.
+        </audio>
+        <h3>Vídeo</h3>
+        <video controls width="320" height="240" poster="poster video.png">
+            <source src="video exemplo.mp4" type="vide/mp4">
+            <source src="video exemplo.webm" type="video/webm">
+                Seu navegador não suporta vídeo.
+        </video>
+     </section>
+
+     <hr>
+
+     <section id="tabela" class="bloco">
+        <h2>Tabela de conteúdos</h2>
+        
+        <table class="tabela-conteudo">
+            <caption class="tabela-conteudo">Conteúdo da diciplina</caption>
+
+            <thead>
+                <tr>
+                    <th>Tema</th>
+                    <th>Aula</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Introdução ao HTML</td>
+                    <td>Aula 1</td>
+                </tr>
+                <tr>
+                    <td>tags Semânticas</td>
+                    <td>Aula 2</td>
+                </tr>
+                <tr>
+                    <td>Multimídia</td>
+                    <td>Aula 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Curso de Multimídia</td>
+                </tr>
+            </tfoot>
+        </table>
+     </section>
+
+     <hr>
+
+     <footer class="rodape">
+        <p>
+            ₢ 2026 - diciplina de Multimídia<br>
+            Jeferson Henrique Carvalho Canavesi
+        </p>
+     </footer>
+
+</body>
+    
+</html>

@@ -1,0 +1,97 @@
+p{
+    color:black;
+}
+#pgdiferente{
+    color: rgb(22, 22, 22);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* . (ponto) é para classe*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color:#333;
+
+
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+
+.cabecalho{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.cabecalho h1{
+    color:#0d47a1;
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+.cabecalho h2{
+    color:#1565c0;
+    font-size: 22px;
+
+}
+
+.cabecalho h2{
+    color:#1e88e5;
+    font-size:italic;
+}
+ 
+.bloco {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+
+}
+
+.bloco p{
+    line-height: 1.6;
+    text-align: justify;
+
+}
+
+.destaque {
+    color:#c62828;
+    background-color: #fdecea;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+
+}
+
+a{
+    color: #0d47a1;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+.logo-html{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+
+}

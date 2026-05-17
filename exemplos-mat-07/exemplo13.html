@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 - 17/05/2024</title>
+</head>
+<body onload="checaCokies()">
+
+    <h1>Exemplo 13</h1>
+
+    <p id="demo"></p>
+
+    <script>
+        function checaCokies(){
+            var text = "";
+            if (navigator.cookieEnabled==true){
+                text  = "Cookies ativados";
+            }
+            else{
+                text  = "Cookies desativados";
+            }
+            document.getElementById('demo').innerHTML = text;
+        }
+    </script>
+
+
+    
+</body>
+</html>
