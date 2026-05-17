@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    margin: 20px;
+}
+
+.menu {
+    background-color: #0d47a1;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-principal {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.conteudo-principal h1 {
+    color: #0d47a1;
+    text-align: center;
+    font-size: 30px;
+}
+
+.conteudo-principal p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.box-aside {
+    background-color: #e3f2fd;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #0d47a1;
+    font-style: italic;
+}
+
+.bloco {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.bloco h2 {
+    color: #1565c0;
+    font-size: 24px;
+}
+
+.bloco h3 {
+    color: #1e88e5;
+    font-size: 18px;
+}
+
+ul, ol, dl {
+    margin-left: 30px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+audio, video {
+    display: block;
+    margin: 10px 0;
+}
+
+.tabela-conteudo {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaço entre bordas */
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+/* Borda geral */
+.tabela-conteudo,
+.tabela-conteudo th,
+.tabela-conteudo td {
+    border: 1px solid #999;
+}
+
+.tabela-conteudo caption {
+    caption-side: top; /* posição do título */
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d47a1;
+
+    padding: 0px;
+    margin-bottom: 10px;
+
+    background-color: #e3f2fd;
+    border: 1px solid #0d47a1;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.tabela-conteudo th {
+    background-color: #0d47a1;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Células */
+.tabela-conteudo td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Efeito visual nas linhas */
+.tabela-conteudo tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Rodapé */
+.tabela-conteudo tfoot td {
+    background-color: #1565c0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
